@@ -1,4 +1,8 @@
 
+body {
+    background-color: antiquewhite;
+}
+
 table {
     width: 700px;
     font-size: 20px;
