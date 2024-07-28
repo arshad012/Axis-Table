@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Devices Axis Info Table</h1>
+    <h2 id="display-device-type"></h2>
+
+    <div id="sort">
+        <Select>
+            <optgroup label="Sort">
+                <option value="normal">Normal</option>
+                <option value="ascending">Ascending</option>
+                <option value="descending">Descending</option>
+            </optgroup>
+            <optgroup label="Devices">
+                <option value="google">Google</option>
+                <option value="apple">iPhone</option>
+                <option value="android">Android</option>
+                <option value="tablet">Tablet</option>
+                <option value="laptop">Laptops</option>
+            </optgroup>
+        </Select>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Device</th>
+                <th>X-axis</th>
+                <th>Y-axis</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <!-- data coming from JS -->
+        </tbody>
+    </table>
+
+    
+</body>
+</html>
+
+<script src="script.js"></script>
